@@ -1,0 +1,875 @@
+
+/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+html {
+    background-color: #fff;
+    font-family: 'Fredoka+One', 'ubuntu', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*----------------------------------*/
+          /* HEADER */
+/*----------------------------------*/
+
+header {
+    height: 93vh;
+    background-image: linear-gradient(to bottom, #160C6D 45%, #9C53A6);
+    margin-top: -27px;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+
+
+/*----------------------------------*/
+          /* MAIN-NAV */
+/*----------------------------------*/
+
+.navbar-part1 {
+    overflow: hidden;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-part1 a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 28px;
+}
+
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 5.5px;
+    margin-right: 4px
+    padding: 14px 12px 0px 0px;
+}
+
+
+.main-nav-0 {
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 7.5rem;
+}
+
+
+.main-nav-0 li{
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 2px;
+    padding: 14px 12px 0px 0px;
+}
+
+
+.main-nav-0 li a:link,
+.main-nav-0 li a:visited {
+   color: #fff;
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: bold;
+   letter-spacing: 6px;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+   color: #fff;
+   text-decoration: none;
+   font-size: 70%;
+   max-width: 100%;
+}
+
+
+.main-nav-1 li{
+    display: inline-block;
+    margin-left: -60px;
+    margin-right: 40px;
+    padding: 0px 4px 0px 38px;
+}
+
+
+.main-nav-1 {
+    float: right;
+    list-style: none;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+
+.main-nav-1 li a:link,
+.main-nav-1 li a:visited {
+   color: #fff;
+   text-decoration: none;
+   font-size: 70%;
+}
+
+.main-nav-1 li a:hover {
+    color: #ff944d;
+}
+
+
+/*----------------------------------*/
+          /* HEADINGS */
+/*----------------------------------*/
+
+.heading-annual {
+    padding-top: 5.8rem;
+    line-height: .4;
+    font-family: Impact;
+    font-weight: 450;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: -4px;
+
+}   
+
+
+.heading-choose {
+    line-height: .7;
+    font-family: helvetica;
+    font-weight: 450;
+    font-size: 4.5rem;
+    text-align: center;
+    letter-spacing: -4px;
+} 
+
+
+.heading-event {
+    line-height: .52;
+    font-family: Impact;
+    font-weight: 450;
+    font-size: 4.5rem;
+    text-align: center;
+    letter-spacing: -6px;
+}
+
+.heading-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 0.1;
+}
+
+.heading-shopping {
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.heading-collection {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: impact;
+    text-align: center;
+    line-height: .1;
+    padding-top: 2px;
+}
+
+.heading-sweater {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    margin-bottom: 3px;
+}
+
+.heading-promice {
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(27, 27, 27);
+}
+
+.heading-world {
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 4.2rem;
+    letter-spacing: .8px;
+    color: rgb(32, 32, 32);
+}
+
+.heading-design {
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 12px;
+    letter-spacing: .8px;
+    color: rgb(37, 37, 37);
+}
+
+.heading-people {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 2.8rem 1px 4.2rem 4.2rem;
+}
+
+.heading-sleek {
+    font-size: 40px;
+    font-family: impact;
+    font-weight: 400;
+    padding: 1px 1px 1px 4.2rem;
+    line-height: 1.2;
+}
+
+.heading-seller {
+    font-size: 2rem;
+    text-align: center; 
+    font-weight: 400;
+    color: rgb(22, 22, 22);
+    letter-spacing: 1px;
+    padding: 60px 1px 1px 1px;
+    font-family: arial;
+}
+
+.heading-women {
+    font-size: 16px;
+    padding: 12px 1px 3px 16rem;
+    text-decoration: underline;
+    color: #555;
+}  
+
+.heading-men {
+    font-size: 16px;
+    padding: 12px 1px 3px 14rem;
+    text-decoration: underline;
+    color: #555
+}
+
+.heading-url {
+    font-size: 2.1rem;
+    font-weight: 300;
+    text-align: center;
+    margin: -20px 1px 7px 1px;
+}
+
+.heading-order {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 7rem;
+}
+
+
+.heading-account {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.heading-store {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.heading-content {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.heading13:before {
+    content: open-quote;
+}
+.heading13:after {
+    content: close-quote;
+}
+
+/*----------------------------------*/
+/* SECTION */
+/*----------------------------------*/
+
+.section-collection::after {
+    display: inline-block;
+    height: 1px;
+    background-color: rgba(197, 195, 195, 0.692);
+    content: " ";
+    width: 90%;
+    margin: 75px 0px 70px 70px;
+}
+
+.section-sellers::after {
+    display: inline-block;
+    height: 1px;
+    background-color: rgba(197, 195, 195, 0.692);
+    content: " ";
+    width: 90%;
+    margin: 75px 0px 70px 70px;
+ }
+ 
+.section-visit::after {
+    display: inline-block;
+    height: 1px;
+    background-color: rgba(197, 195, 195, 0.692);
+    content: " ";
+    width: 90%;
+    margin: 82px 0px 70px 68px;
+}
+
+.section-gram {
+    width: 100%;
+}
+
+.section-order {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.section-footer {
+    margin-bottom: 8rem;
+}
+
+
+/*----------------------------------*/
+/* BUTTON */
+/*----------------------------------*/
+
+
+.btn {
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 80px;
+    border: 1px solid #fff;
+    margin-left: 26rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn1 {
+    padding-left: 26.5rem;
+}
+
+.btn-full {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(20, 20, 20);
+    font-size: 11px;
+    font-weight: 200;
+    text-align: center;
+    padding: 14px 40px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.btn-full:hover {
+    background-color: antiquewhite;
+}
+
+
+/*******************************************/
+            /* NAVBAR ELEMENTS */
+/*******************************************/
+
+.link-everlane {
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #555;
+    letter-spacing: 1px;
+    margin-right: 4rem;
+}
+
+.everlane {
+    background-color: #fff;
+    padding: 21px 1px;
+}
+
+.tread:link {
+    text-transform: uppercase;
+    color: rgb(71, 70, 70);
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-right: 10rem;
+    margin-left: 3rem;
+}
+
+.tread:hover {
+    color: rgba(230, 213, 213, 0.74);
+}
+
+.shopping {
+    color: #fff;
+    margin-right: 18rem;
+    
+}
+
+.flag {
+    height: 4vh;
+
+}
+
+.link4 {
+    color: #fff;    
+}
+
+.icon {
+    height: 6vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box {
+    background-color: #C17AB4;
+    margin: 0px -21px 1px 66px;
+    padding-bottom: 9rem;
+    color: #fff;
+}
+
+.heading-sale {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: impact;
+    text-align: center;
+    padding-top: 8rem;
+    line-height: .1;
+}
+
+
+/*******************************************/
+/* PARAGRAPH */
+/*******************************************/
+
+
+.paragraph1 {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+
+.paragraph2 {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+.paragraph3 {
+    font-size: 16px;
+    color: #555;
+    padding-left: 98px;
+}
+
+.paragraph4 {
+    font-size: 16px;
+    color: #555;
+    padding-left: 10px;
+}
+
+.paragraph5 {
+    font-size: 15.5px;
+    font-weight: 300;
+    display: block;
+    padding: 1px 1px 1px 1px;
+    line-height: 145%;
+    width: 40%;
+    height: 3vh;
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+.paragraph6 {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    width: 90%;
+    height: 12vh;
+    padding-top: 12px;
+    margin-left: 70px;
+}
+
+.paragraph7 {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    width: 90%;
+    height: 12vh;
+    padding-top: 12px;
+    margin-left: 42px;
+}
+
+
+.paragraph8 {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    width: 90%;
+    height: 12vh;
+    padding-top: 12px;
+    margin-left: 20px;
+}
+
+
+.paragraph9 {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    margin-left: -4px;
+    padding-top: 12px;
+}
+
+.paragraph10 {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 1px 1px 1px 1px;
+    display: block;
+    margin-left: 59.5%;
+    margin-top: 3%;
+    margin-right: 3%;
+    color: rgb(102, 99, 99);
+}
+
+/*************LNIK****************/
+
+.links1 {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 28px;
+    color: rgba(104, 102, 102, 0.76);
+    line-height: 1.7;
+}
+
+.links2 {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 28px;
+    color: rgba(104, 102, 102, 0.781);
+    line-height: 1.7;
+}
+
+.links3 {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 28px;
+    color: rgba(104, 102, 102, 0.76);
+    line-height: 1.7;
+}
+
+.links4 {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 28px;
+    color: rgba(104, 102, 102, 0.74);
+    line-height: 1.7;
+}
+
+
+.photo {
+    height: 73vh;
+    width: 87.3%;
+    padding: 40px 1px 1px 36px;
+}
+
+.photo1 {
+    height: 73vh;
+    width: 87.3%;
+    padding: 40px 1px 1px 0px;
+
+}
+
+
+.denim {
+    height: 60vh;
+    width: 86%;
+    padding: 15px 1px 1px 88px;
+}
+
+.shoe {
+    height: 60vh;
+    width: 86%;
+    padding: 15px 1px 1px 8px;
+}
+
+
+/************** tag **************/
+.tag1 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    padding-left: 4.2rem;
+    margin-top: -2px;
+}
+
+.tag2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    padding-left: 12px;
+    margin-top: -2px;
+}
+
+.reveiw {
+    background-color: #fae9fa;
+    margin: 2rem 1px 3rem 1px;
+    padding: 1px 1px 3.8rem 1px;
+}
+
+.container {
+    position: relative;
+}
+
+.reviews {
+    opacity: 1;
+    display: block;
+    height: 71vh;
+    width: 71%;
+    padding: 4.1rem 1px 1px 5.5rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 58%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*********** CONTAINER ************/
+.container:hover .reviews {
+    opacity: 0.9;
+    filter: brightness(65%);
+}
+  
+.container:hover .middle {
+    opacity: 0.9;
+}
+  
+.text {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 11px 70px;
+}
+
+.reviews:hover {
+    filter: brightness(65%);
+}
+
+.stars {
+    padding: 3px 1px 0px 4.2rem; 
+}
+
+.cara {
+    font-size: 17px;
+    font-weight: 300;
+    padding: 1px 1px 1px 4.2rem;
+}
+
+.sign {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 4.5rem 1px 1px 4.2rem;
+}
+
+.women {
+    height: 105vh;
+    width: 88.5%;
+    padding: 0px 1px 1px 3.5rem;
+}
+
+.men {
+    height: 105vh;
+    width: 88.5%;
+}
+
+.location {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+.locations {
+    color: rgb(63, 62, 62);
+}
+
+.visit {
+    height: 95vh;
+    width: 90%;
+    margin: 70px 1px 1px 69px;
+}
+
+
+.gram {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+.along {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 6%;
+    padding: 10px 50px;
+    border: 1px solid #000;
+}
+
+.along:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.insta {
+    height: 3vh;
+}
+
+
+.row {
+    width: 1240px;
+}
+
+.crew {
+    height: 43vh;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.puff {
+    height: 43vh;
+    width: 90%;
+    padding-left: 45px;
+    padding-top: 70px;
+}
+
+.trainer {
+    height: 43vh;
+    width: 90%;
+    padding-left: 23px;
+    padding-top: 70px;
+}
+
+.bomber {
+    height: 43vh;
+    width: 90%;
+    padding-top: 25px;
+}
+
+.row1 {
+    width: 53%;
+}
+
+.heading-company {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.content:hover {
+    color: rgba(0, 0, 0, 0.884);
+}
+
+form {
+    margin-left: 20px;
+    display: block;
+    text-align: right;
+}
+
+.form-control {
+    width: 40%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2.5px solid rgba(197, 195, 195, 0.534);
+    color: rgba(163, 160, 160, 0.774);
+    font-size: 19px; 
+}
+
+form:focus{
+    outline: #000;
+}
+
+.arrow {
+    font-size: 42px;
+    color: rgb(156, 152, 152);
+    padding-top: 62px;
+    line-height: .1;
+    text-align: right;
+   
+}
+
+/************ policy **************/
+
+.policy {
+    list-style: none;
+    display: block;
+    margin-right: 2rem;
+}
+
+.policy li {
+    display: inline-block;
+    padding-right: 26px;
+    padding-left: 15px;
+
+}
+
+.policy-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(97, 96, 96);
+    font-weight: 400;
+}
+
+/************* footer ****************/
+
+#footer-list li:not(:first-child):not(:last-child) {
+    border-right: 1px solid rgb(173, 169, 169);
+    padding: .5px auto;
+}
+
+.last-part {
+    background-color: rgba(231, 225, 225, 0.548);
+    padding-bottom: .1px;
+    padding-top: 1px;
+}
+
