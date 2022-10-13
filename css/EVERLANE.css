@@ -63,7 +63,7 @@ header {
 .main-nav li{
     display: inline-block;
     margin-left: 5.5px;
-    margin-right: 4px
+    margin-right: 4px;
     padding: 14px 12px 0px 0px;
 }
 
@@ -384,8 +384,9 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(20, 20, 20);
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 200;
+    align-items: center;
     text-align: center;
     padding: 14px 40px;
     border: 1px solid #fff;
